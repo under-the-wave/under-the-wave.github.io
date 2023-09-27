@@ -1,8 +1,50 @@
+element {
+    --background-color: #fbfbfd;
+    --columns: 1;
+    --columns-for-analytics-only: 1;
+    --content-height: 500px;
+    --double-edge-border-width: 0px;
+    --edge-border-width: 0px;
+    --edge-border-width-fallback: 0px;
+    --global-nav-ad-bar-height: 0px;
+    --global-nav-collective-height: calc(48px + 135px + 0px);
+    --gutter-and-half-width: 18px;
+    --gutter-color: #fff;
+    --gutter-half-width: 6px;
+    --gutter-width: 12px;
+    --r-globalmessage-segment-height: 0px;
+    --r-globalnav-background-opened: #fbfbfd;
+    --r-globalnav-background-opened-dark: #161617;
+    --r-globalnav-height: 48px;
+    --r-globalnav-segmentbar-height: 0px;
+    --r-localeswitcher-height: 135px;
+    --r-localnav-gn-height: 48px;
+    --r-localnav-height: 48px;
+    --r-localnav-stacked-height: 63px;
+    --r-localnav-viewport-large-min-width: 1024px;
+    --r-localnav-viewport-large-query: (min-width: 1024px);
+    --r-localnav-viewport-medium-max-width: 1023px;
+    --r-localnav-viewport-medium-min-width: 834px;
+    --r-localnav-viewport-medium-query: (min-width: 834px);
+    --r-localnav-viewport-small-max-width: 833px;
+    --r-localnav-viewport-small-min-width: 320px;
+    --r-localnav-viewport-small-query: (min-width: 320px);
+    --safe-area-inset-lt: 0px;
+    --safe-area-inset-rt: 0px;
+    --sk-body-background-color: rgb(0, 0, 0);
+    --sk-body-link-color: rgb(41, 151, 255);
+    --sk-body-text-color: rgb(245, 245, 247);
+    --sk-headline-text-color: rgb(245, 245, 247);
+    --sk-link-disabled-opacity: 0.36;
+    --text-color: #1d1d1f;
+    }
+
 body {
     font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: var(--background-color);
 }
 
 header {
@@ -14,6 +56,7 @@ header {
 
 h1 {
     font-size: 2rem;
+    color: var(--text-color);
 }
 
 main {
@@ -22,8 +65,8 @@ main {
 }
 
 mywave {
-    background-color: #891f1f;
     color: #163cac;
     text-align: left;
-    padding: 5px;
+    padding: 0.5cm;
 }
+
