@@ -98,11 +98,11 @@ ul {
     overflow: hidden;
 }
   
-  li {
+li {
     float: left;
 }
   
-  li a {
+li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
