@@ -1,4 +1,4 @@
-element {
+:root {
     --background-color: #fbfbfd;
     --columns: 1;
     --columns-for-analytics-only: 1;
@@ -37,7 +37,8 @@ element {
     --sk-headline-text-color: rgb(245, 245, 247);
     --sk-link-disabled-opacity: 0.36;
     --text-color: #1d1d1f;
-    }
+    --varpersoc: red;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -48,8 +49,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #041a94;
+    color: red;
     text-align: center;
     padding: 20px;
 }
@@ -60,7 +61,7 @@ h1 {
 }
 
 main {
-    padding: 20px;
+    padding: 3px;
     text-align: center;
 }
 
@@ -70,3 +71,52 @@ mywave {
     padding: 0.5cm;
 }
 
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: red;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
